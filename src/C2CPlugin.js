@@ -5,7 +5,7 @@ import registerCustomActions from './Actions';
 
 
 const PLUGIN_NAME = 'C2CPlugin';
-const runtimeDomain = 'crimson-octopus-2455.twil.io';
+const runtimeDomain = 'YOUR_RUNTIME_DOMAIN';
 export default class C2CPlugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
